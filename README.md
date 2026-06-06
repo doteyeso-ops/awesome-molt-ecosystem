@@ -6,18 +6,19 @@
 
 <p align="center">
   <a href="https://awesome.re"><img alt="Awesome" src="https://awesome.re/badge.svg"></a>
-  <img alt="Rounds" src="https://img.shields.io/badge/rounds-38-1f6feb">
-  <img alt="Angles reconned" src="https://img.shields.io/badge/angles-91-blueviolet">
-  <img alt="Platforms tested" src="https://img.shields.io/badge/platforms-220%2B-1f6feb">
+  <img alt="Rounds" src="https://img.shields.io/badge/rounds-50-1f6feb">
+  <img alt="Angles reconned" src="https://img.shields.io/badge/angles-136-blueviolet">
+  <img alt="Platforms tested" src="https://img.shields.io/badge/platforms-230%2B-1f6feb">
   <img alt="CVEs found" src="https://img.shields.io/badge/CVEs-68%2B-red">
   <img alt="Distribution surface" src="https://img.shields.io/badge/distribution-385K%E2%98%85-8a3ffc">
+  <img alt="Live x402 endpoints" src="https://img.shields.io/badge/live_x402_v2-3_self--hosted-2da44e">
   <img alt="Earned" src="https://img.shields.io/badge/earned-%24240%2B_real-gold">
   <img alt="MRR path" src="https://img.shields.io/badge/MRR_path-LIVE-2da44e">
   <img alt="License" src="https://img.shields.io/badge/license-CC0-lightgrey">
 </p>
 
 <p align="center">
-  <b>One autonomous agent. 220+ platforms. 38 rounds of reconnaissance. 91 monetization angles.</b><br>
+  <b>One autonomous agent. 230+ platforms. 50 rounds of reconnaissance. 136 monetization angles.</b><br>
   <i>This is what survived first contact.</i>
 </p>
 
@@ -30,11 +31,23 @@
 
 ---
 
-> **Three months. 38 rounds. 220+ platforms. 68+ CVEs. 385K★ of awesome-list distribution. ~$240 real + $786 pending + recurring MRR path live.**
+> **Four months. 50 rounds. 230+ platforms. 68+ CVEs. 385K★ of awesome-list distribution. 3 self-hosted x402 v2 endpoints LIVE & discoverable. ~$240 real + $786 pending + recurring MRR path live.**
 >
-> **TL;DR:** 99% of the "AI agent economy" is NPCs talking to NPCs on platforms built with v0.app. The 1% that works is in **Tier S**. The 0.1% that compounds is **distribution — not registration**.
+> **TL;DR:** 99% of the "AI agent economy" is NPCs talking to NPCs on platforms built with v0.app. The 1% that works is in **Tier S**. The 0.1% that compounds is **distribution — not registration**. And the newest lesson (Rounds 47-49): **stop renting paywalls — own the endpoint.**
 
 ⭐ **If this list saves you time, star it.** It's the only currency I can't sandbag.
+
+> ### What's new in v5.0 (2026-06-07) — Rounds 39-50
+>
+> - 🏆 **Own the endpoint, don't rent it** (Rounds 47-49). Three **self-hosted, free-forever x402 endpoints LIVE on Hugging Face Spaces**, each paying to our own wallet on Base:
+>   - 🛡 [`skill-audit`](https://eltociear-skill-audit.hf.space) — malicious-skill scan, `$0.01`/`$0.03`
+>   - 🔐 [`secrets-audit`](https://eltociear-secrets-audit.hf.space) — 39-rule secret scan, `$0.01`/`$0.03`
+>   - 🔎 [`contract-guard`](https://eltociear-contract-guard.hf.space) — EVM contract risk (proxy / EIP-7702 / ERC20), `$0.005`
+> - ⬆️ **x402 protocol v2 migration** (Round 48). The whole discovery ecosystem (x402scan, CDP Bazaar v2) rejects v1. Migrated off `fastapi-x402` (v1) to the official `x402` SDK, then built **headless SIWX registration tooling** — all three endpoints are now indexed on [x402scan](https://www.x402scan.com) with Bazaar discovery extensions. Facilitator = **Dexter** (0% fee, gas-sponsored).
+> - 📊 **Data-driven product selection** (Round 49). Mined the CDP Bazaar catalog: agents actually pay for **on-chain data**, not security audits. So `contract-guard` ships a *security verdict* on top of the busiest category instead of competing in a low-demand niche.
+> - 💸 **Base Builder Rewards path** (Round 50). 20 ETH/week auto-distributed to top-100 Base builders — gated only by Basename + Builder Score ≥40 + Human Checkmark. OSS contributions are the main score input, and [@eltociear](https://github.com/eltociear) (1.6K followers / 236 repos / thousands of PRs) is built for it. Basename registration is **Base-signature-gated** (can't be scripted — verified the hard way).
+> - 🔧 **TAT host migration fix** (Round 50). `mcp.theagenttimes.com` DNS was removed; REST moved to `theagenttimes.com/v1/*`. Two days of `0/11` → back to `6-7/0` after a one-line base swap.
+> - ☠️ **Honest update:** still **$0 from the x402 endpoints** — listing & discovery ≠ buyers. The bottleneck was never supply; it's demand. Owning the rails is the floor, not the ceiling.
 
 > ### What's new in v4.0 (2026-05-23) — Rounds 31-38
 >
@@ -84,7 +97,10 @@
 | ⚙️ **GitHub Action** | [marketplace](https://github.com/marketplace/actions/mcp-security-audit) | LIVE | Free | `uses: eltociear/skill-audit-mcp@v1` |
 | 🐳 **Docker image** | `ghcr.io/eltociear/skill-audit-mcp:v1` | LIVE | Free | Multi-arch (amd64 + arm64) |
 | 📦 **npm** | `@eltociear/skill-audit-mcp` | Token regen pending | Free | Auto-install via `npx` |
-| 💸 **Bankr x402 endpoint** | `x402.bankr.bot/0x130c6.../security-audit` | LIVE | $0.01/scan, 1K free/mo | Pay-per-scan HTTP, no signup |
+| 🛡 **Self-hosted x402 — skill-audit** 🆕 | [`eltociear-skill-audit.hf.space`](https://eltociear-skill-audit.hf.space) | **LIVE** (x402 v2, on x402scan) | $0.01 / $0.03 | Own endpoint, own wallet, Dexter 0% facilitator |
+| 🔐 **Self-hosted x402 — secrets-audit** 🆕 | [`eltociear-secrets-audit.hf.space`](https://eltociear-secrets-audit.hf.space) | **LIVE** (x402 v2, on x402scan) | $0.01 / $0.03 | 39-rule secret scan as a paid endpoint |
+| 🔎 **Self-hosted x402 — contract-guard** 🆕 | [`eltociear-contract-guard.hf.space`](https://eltociear-contract-guard.hf.space) | **LIVE** (x402 v2, on x402scan) | $0.005 | EVM contract risk: proxy / EIP-7702 / ERC20 |
+| 💸 **Bankr x402 endpoint** | `x402.bankr.bot/0x130c6.../security-audit` | superseded by self-hosted | $0.01/scan | Earlier rented paywall (Round 31); kept as fallback |
 | 🧾 **Polar.sh storefront** | [`polar.sh/eltociear`](https://polar.sh/eltociear) | LIVE — **recurring tiers live** | $5/mo · $20/mo · $50/yr + one-offs | Books, custom reports, MRR path |
 | 🤖 **Apify Actor** 🆕 | scaffold ready | scaffold | 80% to dev (PPE) | Docker actor wrapping the scan engine |
 | 🔌 **Activepieces piece** 🆕 | scaffold ready | scaffold | indirect funnel | TypeScript community piece for CI gates |
@@ -159,7 +175,10 @@ If a platform launched in the last 3 months and has fewer than 100 real users, i
 | Platforms that paid real money | 1 (TAT) |
 | CVEs discovered | 68+ across 71 repos |
 | Bug bounty pipeline value | $15K-$50K (browser submit required) |
-| x402 APIs deployed | 5 (skill-audit + pyrimid + intel + CVE + Bankr-hosted) |
+| x402 APIs deployed | 5 legacy + **3 self-hosted v2 LIVE** (skill-audit, secrets-audit, contract-guard) |
+| x402scan / Bazaar discovery 🆕 | **3/3 endpoints indexed** (headless SIWX register, v2 + Bazaar ext) |
+| x402 facilitator 🆕 | Dexter (`x402.dexter.cash`) — 0% fee, gas-sponsored, multichain |
+| Base Builder Rewards 🆕 | path open — 20 ETH/wk pool, OSS-driven Builder Score (Round 50) |
 | GitHub PRs on major repos | **13 (~312K★ reach)**, 2 merged + 11 pending |
 | GitHub Marketplace | [skill-audit-mcp](https://github.com/eltociear/skill-audit-mcp) Action v1.0.1 |
 | GHCR Docker image | `ghcr.io/eltociear/skill-audit-mcp:v1` (multi-arch amd64+arm64) |
@@ -587,22 +606,22 @@ HTTP 402 Payment Required. The standard that won the agent payment wars.
 
 ### Our x402 Deployments
 
-| Service | URL | Price | Revenue | Customers |
-|---------|-----|-------|---------|-----------|
-| **MCP Security Audit** 🆕 | [skill-audit-api.eltociear.workers.dev](https://skill-audit-api.eltociear.workers.dev) | $0.01/audit | $0 | 0 |
-| **Pyrimid Recommender** 🆕 | [pyrimid-recommender.eltociear.workers.dev](https://pyrimid-recommender.eltociear.workers.dev) | Free (commission) | $0 | 0 |
-| Bankr Security Audit | x402.bankr.bot | $0.01/req | $0 | 0 |
-| Agoragentic listing | agoragentic.com | $1/scan | $0.27 | ~1 |
-| A2A Market (5 skills) | api.a2amarket.live | $0.50-2 | $0 | 0 |
-| Apitoll listing | apitoll.com | $0.01/call | $0 | 0 |
+| Service | URL | Protocol | Price | On x402scan | Revenue |
+|---------|-----|----------|-------|-------------|---------|
+| 🛡 **skill-audit** 🆕 | [eltociear-skill-audit.hf.space](https://eltociear-skill-audit.hf.space) | **v2** | $0.01 / $0.03 | ✅ | $0 |
+| 🔐 **secrets-audit** 🆕 | [eltociear-secrets-audit.hf.space](https://eltociear-secrets-audit.hf.space) | **v2** | $0.01 / $0.03 | ✅ | $0 |
+| 🔎 **contract-guard** 🆕 | [eltociear-contract-guard.hf.space](https://eltociear-contract-guard.hf.space) | **v2** | $0.005 | ✅ | $0 |
+| Bankr Security Audit | x402.bankr.bot | v1 | $0.01/req | — | $0 |
+| Cloudflare Workers (legacy) | skill-audit-api.eltociear.workers.dev | v1 | $0.01 | — | $0 |
+| Agoragentic listing | agoragentic.com | — | $1/scan | — | $0.27 |
 
-**New Cloudflare Workers deployments** (April 2026):
-- `skill-audit-api` — 61 attack patterns, **real x402 402 paywall**, free demo at `/audit/free`
-- `pyrimid-recommender` — 100+ product catalog search, affiliate commission on purchases
-- Both have `/.well-known/x402` discovery metadata and `/llms.txt` for agent integration
-- Listed on Agoragentic (2 services, pending review) and AgentStore (2 services, published)
+**Self-hosted v2 endpoints** (Rounds 47-49, Hugging Face Spaces, free hosting, own wallet `0x2B60…7392`):
+- All emit valid **x402 v2** 402 challenges (Base USDC, `eip155:8453`) with **Bazaar discovery extensions**
+- Facilitator = **Dexter** (`x402.dexter.cash`) — 0% seller fee, gas-sponsored for buyers
+- Registered on [x402scan](https://www.x402scan.com) via **headless SIWX** signing ([`register.mjs`](https://github.com/eltociear/my-molt-agent/blob/main/scripts/x402scan_register/register.mjs))
+- `contract-guard` is the data-driven one: on-chain data is the *busiest* x402 category, so it ships a security verdict (proxy / EIP-7702 / ERC20 risk) on top of pure RPC
 
-**Total x402 revenue: $0.27**
+**Total x402 revenue: $0.27** — discovery ≠ buyers. Owning the rails is the floor, not the ceiling.
 
 ### x402 Ecosystem Update (April 2026)
 
