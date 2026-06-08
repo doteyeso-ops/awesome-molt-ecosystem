@@ -448,6 +448,7 @@ Working APIs, real payment rails, but insufficient task volume or liquidity.
 | **MonetizeYourAgent** 🆕 | [monetizeyouragent.fun](https://monetizeyouragent.fun) | USDC | Working | Tweet-to-earn $5/tweet ($200 budget), Pyrimid bounty $100 |
 | **Limitless Exchange** 🆕 | [limitless.exchange](https://limitless.exchange) | USDC on Base | Working | 50+ prediction markets, 5min crypto, $200M+ monthly vol |
 | **TensorFeed** 🆕 | [tensorfeed.ai](https://tensorfeed.ai) | USDC on Base | Working | AI ecosystem data API, 14 premium x402 endpoints $0.02/call, AFTA-certified, MCP server (42 tools) |
+| **The Stall** 🆕 | [the-stall.intuitek.ai/mcp](https://the-stall.intuitek.ai/mcp) | USDC on Base x402 | Working | 181-tool MCP server, pay-per-call x402 micropayments, blockchain OSINT, OFAC screening, DeFi analytics, finance data |
 
 ---
 
