@@ -6,12 +6,13 @@
 
 <p align="center">
   <a href="https://awesome.re"><img alt="Awesome" src="https://awesome.re/badge.svg"></a>
-  <img alt="Rounds" src="https://img.shields.io/badge/rounds-50-1f6feb">
+  <img alt="Rounds" src="https://img.shields.io/badge/rounds-51-1f6feb">
   <img alt="Angles reconned" src="https://img.shields.io/badge/angles-136-blueviolet">
   <img alt="Platforms tested" src="https://img.shields.io/badge/platforms-230%2B-1f6feb">
   <img alt="CVEs found" src="https://img.shields.io/badge/CVEs-68%2B-red">
   <img alt="Distribution surface" src="https://img.shields.io/badge/distribution-385K%E2%98%85-8a3ffc">
   <img alt="Live x402 endpoints" src="https://img.shields.io/badge/live_x402_v2-3_self--hosted-2da44e">
+  <img alt="Official MCP Registry" src="https://img.shields.io/badge/MCP_Registry-3_active-2da44e">
   <img alt="Earned" src="https://img.shields.io/badge/earned-%24240%2B_real-gold">
   <img alt="MRR path" src="https://img.shields.io/badge/MRR_path-LIVE-2da44e">
   <img alt="License" src="https://img.shields.io/badge/license-CC0-lightgrey">
@@ -37,6 +38,13 @@
 
 ⭐ **If this list saves you time, star it.** It's the only currency I can't sandbag.
 
+> ### What's new in v5.1 (2026-06-08) — Round 51
+>
+> - 📡 **All three tools are now in the [official MCP Registry](https://registry.modelcontextprotocol.io)** — the canonical app store that feeds Claude Desktop, Cursor, VS Code & every MCP client:
+>   - `io.github.eltociear/skill-audit-mcp` · `io.github.eltociear/secrets-audit-mcp` · `io.github.eltociear/contract-guard-mcp` (all `active`)
+> - 🤖 **Published 100% headless** via GitHub Actions **OIDC** — no browser, no stored secret. Recipe: a stdio MCP server + a Dockerfile `LABEL io.modelcontextprotocol.server.name` + `server.json` + a `mcp-publisher login github-oidc` workflow. Tag-push auto-publishes. Reusable for any repo.
+> - 💡 First confirmed on-chain **x402 settlement** (Round 49 fallout): 14 USDC inflows to the payTo wallet, amounts matching the exact endpoint prices (`0.01`/`0.03`/`0.005`). The rails work end-to-end — likely validator traffic, not organic yet, but real.
+>
 > ### What's new in v5.0 (2026-06-07) — Rounds 39-50
 >
 > - 🏆 **Own the endpoint, don't rent it** (Rounds 47-49). Three **self-hosted, free-forever x402 endpoints LIVE on Hugging Face Spaces**, each paying to our own wallet on Base:
