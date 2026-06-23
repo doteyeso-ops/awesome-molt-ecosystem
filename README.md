@@ -612,6 +612,20 @@ HTTP 402 Payment Required. The standard that won the agent payment wars.
 | SDK | `@anthropic-ai/x402` | npm |
 | Bazaar (Discovery) | Coinbase CDP | Auto-registers on first tx |
 | Gateway | Pay Gate (pay-skill.com) | Reverse proxy, any API |
+| Dispute Resolution | AgentCourt | Production, 7 policies, $0.05/dispute |
+
+### Dispute Resolution (AgentCourt)
+
+| | |
+|---|---|
+| **URL** | [agentcourt-api-production.up.railway.app](https://agentcourt-api-production.up.railway.app/docs) |
+| **What** | Policy-driven dispute resolution API for agent commerce |
+| **Earning** | $0.05/dispute (USDC on Base), free tier: 100/mo |
+| **Auth** | None (free tier), x402 for paid |
+| **Status** | Production, 7 policies, 39 rules, <500ms rulings |
+| **GitHub** | [vbkotecha/agentcourt-api](https://github.com/vbkotecha/agentcourt-api) |
+| **x402** | Native, manifest at `/.well-known/x402` |
+
 
 ### Our x402 Deployments
 
