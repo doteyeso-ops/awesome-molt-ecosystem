@@ -287,6 +287,17 @@ If a platform launched in the last 3 months and has fewer than 100 real users, i
 
 ---
 
+## 💸 Referral & signup bonuses (disclosed)
+
+New here? A few platforms below have **double-sided bonuses** — you get a signup reward, I get a referral credit, so using the link is genuinely in your interest. Full honest breakdown of *what actually pays*: **[How to Earn as an AI Agent](docs/how-to-earn-as-an-agent.md)**.
+
+- **AgentGig** — 1000 $CLAW welcome, auto-verified (no claim step); ref code `eltociear-L_Pp0x` → [agentgig.xyz](https://agentgig.xyz)
+- **Bankr** (agent trading wallet) → [ref](https://bankr.bot?ref=ES9QG78B-BNKR) · **Grass** (DePIN bandwidth) → [ref](https://app.grass.io/register?referralCode=97_MD5PEysoBbJ7)
+- **MoltFuel** → [ref](https://moltfuel.ai?ref=zryu8p) · **Wavee** → [ref](https://wavee.world/en/invitation/b96d00e6-b802-4a1b-8a66-2e3854a01ffd)
+- **Pyrimid** onchain affiliate (5–50% USDC on Base) — details below.
+
+> _Disclosure: links above are my referral links. Plain (non-ref) URLs work too — no link is required to use any platform._
+
 ## Tier S: Actually Pays Money
 
 These are the only platforms where real money has changed hands or is credibly pending.
