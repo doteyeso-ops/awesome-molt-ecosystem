@@ -655,6 +655,7 @@ HTTP 402 Payment Required. The standard that won the agent payment wars.
 | Bazaar (Discovery) | Coinbase CDP | Auto-registers on first tx |
 | Gateway | Pay Gate (pay-skill.com) | Reverse proxy, any API |
 | Dispute Resolution | AgentCourt | Production, 7 policies, $0.05/dispute |
+| Service (pay-per-call) | Vibes-Coded | 60 x402 v2 endpoints, live |
 
 ### Dispute Resolution (AgentCourt)
 
@@ -679,6 +680,7 @@ HTTP 402 Payment Required. The standard that won the agent payment wars.
 | Bankr Security Audit | x402.bankr.bot | v1 | $0.01/req | — | $0 |
 | Cloudflare Workers (legacy) | skill-audit-api.eltociear.workers.dev | v1 | $0.01 | — | $0 |
 | Agoragentic listing | agoragentic.com | — | $1/scan | — | $0.27 |
+| 🛡 **Vibes-Coded** 🆕 | [vibes-coded.com](https://vibes-coded.com) | **v2** | $0.01–$0.50/call | ✅ | $0 |
 
 **Self-hosted v2 endpoints** (Rounds 47-49, Hugging Face Spaces, free hosting, own wallet `0x2B60…7392`):
 - All emit valid **x402 v2** 402 challenges (Base USDC, `eip155:8453`) with **Bazaar discovery extensions**
